@@ -7,22 +7,50 @@
 body{
 
     background-color: beige;
-    padding: 15px;
+    padding: 1px;
+}
+
+.container{
+ display:flex;
+ margin: auto;
+ width: 95%;
+ height: 100%;
+ background-color: white;
+ padding: 15px;
+}
+.cuerpo {
+    width: 75%;
+    height: 100%;
+    border-right: solid 2px rgb(249, 95, 6);
+}
+.seccion2{
+    width: 25%;
+    padding: 10px;
 }
 
 h1{
-
     text-align: center;
     color: red;
     font-size:28px;
     font-weight: bold;
-    
 
 }
-
-div{
-  height: 60px;  
-  width: 150px;   
-  margin: auto;
-  background-color: bisque;
+ul {
+    list-style: none;
 }
+p{
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+li {
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    font-size: 21px;
+    color: rgb(15, 134, 238);
+    border-bottom: solid 2px rgb(255, 95, 2);
+}
+
+
